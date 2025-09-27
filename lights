@@ -1,0 +1,40 @@
+ int (A) = 1000;
+void setup() {
+  pinMode(LED_BUILTIN, OUTPUT);
+  pinMode(13, OUTPUT);
+  pinMode(12, OUTPUT);
+  pinMode(8, OUTPUT);
+  pinMode(7, OUTPUT);
+}
+void loop() {
+digitalWrite(13, 1);
+digitalWrite(12, 0);
+digitalWrite(8, 0);
+digitalWrite(7, 0);
+delay(A);
+digitalWrite(13, 0);
+digitalWrite(12, 1);
+digitalWrite(8, 0);
+digitalWrite(7, 0);
+delay(A);
+digitalWrite(13, 0);
+digitalWrite(12, 0);
+digitalWrite(8, 1);
+digitalWrite(7, 0);
+delay(A);
+digitalWrite(13, 0);
+digitalWrite(12, 0);
+digitalWrite(8, 0);
+digitalWrite(7, 1);
+delay(A);
+digitalWrite(13, 0);
+digitalWrite(12, 0);
+digitalWrite(8, 1);
+digitalWrite(7, 0);
+delay(A);
+digitalWrite(13, 0);
+digitalWrite(12, 1);
+digitalWrite(8, 0);
+digitalWrite(7, 0);
+delay(A);
+}
